@@ -66,7 +66,7 @@ class Rectangle:
         for column in range(self.__height):
             for row in range(self.__width):
                 try:
-                    rectangle += str(self.print_symbol
+                    rectangle += str(self.print_symbol)
                 except Exception:
                     rectangle += type(self).print_symbol
             if column < self.__height - 1:
